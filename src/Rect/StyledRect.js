@@ -47,12 +47,12 @@ export default styled.div`
 
     &.l,
     &.r {
-      margin-top: -10px;
+      margin-top: 1px;
     }
 
     &.t,
     &.b {
-      margin-left: -10px;
+      margin-left: 1px;
     }
   }
 
