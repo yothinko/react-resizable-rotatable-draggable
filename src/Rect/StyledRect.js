@@ -11,6 +11,7 @@ export default styled.div`
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     width: 17px;
     height: 17px;
+    border-radius: 100%;
   }
 
   .resizable-handler {
@@ -58,11 +59,35 @@ export default styled.div`
   .rotate {
     position: absolute;
     cursor: pointer;
-    width: calc(100% + 2rem);
-    height: calc(100% + 2rem);
-    left: -1rem;
-    top: -1rem;
+    width: calc(100% + 4rem);
+    height: calc(100% + 4rem);
+    left: -2rem;
+    top: -2rem;
     z-index: -1;
+  }
+
+  .t,
+  .tl,
+  .tr {
+    top: -3px;
+  }
+
+  .b,
+  .bl,
+  .br {
+    bottom: -3px;
+  }
+
+  .r,
+  .tr,
+  .br {
+    right: -3px;
+  }
+
+  .tl,
+  .l,
+  .bl {
+    left: -3px;
   }
 
   .l,
