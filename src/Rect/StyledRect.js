@@ -16,43 +16,43 @@ export default styled.div`
 
   .resizable-handler {
     position: absolute;
-    width: 34px;
-    height: 34px;
+    width: 17px;
+    height: 17px;
     cursor: pointer;
     z-index: 2;
 
     &.tl,
     &.t,
     &.tr {
-      top: -17px;
+      top: -10px;
     }
 
     &.tl,
     &.l,
     &.bl {
-      left: -17px;
+      left: -10px;
     }
 
     &.bl,
     &.b,
     &.br {
-      bottom: -17px;
+      bottom: -10px;
     }
 
     &.br,
     &.r,
     &.tr {
-      right: -17px;
+      right: -10px;
     }
 
     &.l,
     &.r {
-      margin-top: -17px;
+      margin-top: -10px;
     }
 
     &.t,
     &.b {
-      margin-left: -17px;
+      margin-left: -10px;
     }
   }
 
@@ -69,25 +69,25 @@ export default styled.div`
   .t,
   .tl,
   .tr {
-    top: -3px;
+    top: -10px;
   }
 
   .b,
   .bl,
   .br {
-    bottom: -3px;
+    bottom: -10px;
   }
 
   .r,
   .tr,
   .br {
-    right: -3px;
+    right: -10px;
   }
 
   .tl,
   .l,
   .bl {
-    left: -3px;
+    left: -10px;
   }
 
   .l,
