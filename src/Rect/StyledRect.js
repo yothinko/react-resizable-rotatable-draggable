@@ -93,10 +93,12 @@ export default styled.div`
   .l,
   .r {
     top: 50%;
+    transform: translateY(-50%);
   }
 
   .t,
   .b {
     left: 50%;
+    transform: translateX(-50%);
   }
 `;
